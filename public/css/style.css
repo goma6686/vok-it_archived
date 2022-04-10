@@ -1,0 +1,93 @@
+.card {
+  /*border-radius: 0px !important;
+  border: 2px solid #78003e;*/
+  border: 1px solid #78003e;
+}
+.dropdown-menu {
+  min-width:50px;
+}
+
+.hiddenObject{
+	display:none;
+}
+
+input {
+	outline: none;
+}
+input[type=text] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none;
+}
+
+
+input[type=text] {
+	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+	width: 0px;
+
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+input[type=text]:focus {
+	width: 130px;
+	background-color: #fff;
+	border-color: #78003F;
+
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+
+input:-moz-placeholder {
+	color: #999;
+}
+input::-webkit-input-placeholder {
+	color: #999;
+}
+
+img {
+	max-height:500px;
+	max-width: 500px;
+}
+
+.filterDiv {
+  display: none;
+}
+
+.Nshow {
+  display: block;
+}
+
+.news_container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.Nbtn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.Nbtn:hover {
+  background-color: #ddd;
+}
+
+.Nbtn.Nactive {
+}
+
