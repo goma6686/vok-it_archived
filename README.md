@@ -23,3 +23,21 @@ Since H5P content is created at https://h5p.org, our system only needed to displ
 - H5P
 - MySQL
 - Bootstrap
+
+## Database schema
+
+![Database schema](https://github.com/goma6686/vok-it_archived/blob/main/public/img/database%20schema.png)
+
+## Architecture diagram
+
+![System architecture](https://github.com/goma6686/vok-it_archived/blob/main/public/img/architecture.png)
+
+## Use Case
+
+![Use Case diagram](https://github.com/goma6686/vok-it_archived/blob/main/public/img/Use%20Case.jpg)
+
+## Design
+
+![Lesson list](https://github.com/goma6686/vok-it_archived/blob/main/public/img/lesson_list.png)
+
+![Admin dashboard](https://github.com/goma6686/vok-it_archived/blob/main/public/img/admin_dashboard.png)
